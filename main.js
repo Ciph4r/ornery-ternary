@@ -1,15 +1,16 @@
-function isHot() {
+function isHot(temp) {
+return temp >= 80 ?  'Yes, it is indeed hot.' : 'No, it is not hot.'
+}
+
+
+function helloThere(name) {
+return name.length >= 6 ? 'Hi, '+name : 'Hello, '+name
 
 }
 
 
-function helloThere() {
-
-}
-
-
-function goodbyeYou() {
-
+function goodbyeYou(name) {
+return typeof name === 'string' ? `Goodbye, `+name : 'Goodbye, stranger'
 }
 
 
